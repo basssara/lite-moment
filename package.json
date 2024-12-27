@@ -1,0 +1,33 @@
+{
+  "author": "Basssara",
+  "license": "MIT",
+  "name": "lite-moment",
+  "version": "1.0.0",
+  "description": "A lightweight date utility library for modern JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "terser src/index.js -o dist/lite-moment.min.js --compress --mangle"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "moment",
+    "utility",
+    "lightweight"
+  ],
+  "repository": { 
+    "type": "git", 
+    "url": "https://github.com/basssara/lite-moment.git" 
+  }, 
+  "bugs": { 
+    "url": "https://github.com/basssara/lite-moment/issues" 
+  }, 
+  "homepage": "https://github.com/basssara/lite-moment#readme", 
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "jest": "^29.7.0",
+    "terser": "^5.37.0"
+  }
+}

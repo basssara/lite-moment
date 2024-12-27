@@ -1,0 +1,33 @@
+# Node.js
+node_modules
+dist
+coverage
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Конфигурационные файлы
+.env
+*.local
+
+# IDE/Editor специфические файлы
+.vscode/
+.idea/
+*.iml
+
+# Локальные файлы build-систем
+build/
+.cache/
+
+# Тестовые файлы
+*.test.*
+__tests__/
+src/tests
